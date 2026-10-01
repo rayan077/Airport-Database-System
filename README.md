@@ -23,7 +23,7 @@ The system manages operational data across 9 core entities:
   * One-to-Many (`1:N`) between `PASSENGER` and `LUGGAGE`.
   * Many-to-Many (`M:N`) between `FLIGHT` and `PASSENGER` (resolved via associative table `BOOK`).
 
-![EER Diagram](images/eer-diagram.png)
+![EER Diagram](images/eer-diagram.jpg)
 
 ### Relational Schema & Normalization (3NF)
 Every relation in the schema was verified against Normalization forms:
